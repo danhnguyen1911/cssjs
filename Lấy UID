@@ -1,0 +1,3 @@
+var txt="";e=document.getElementsByClassName("fsl fwb fcb");for(var i=0; i<e.length; i+=1) {h=e[i].getElementsByTagName("a");for(var j=0; j<h.length; j+=1){
+v=h[j].getAttribute("data-hovercard").split("=");m=v[1].split("&");if(m[0]) txt+=m[0]+"\n"}};
+document.body.innerHTML="<textarea>"+txt+"</textarea>";
